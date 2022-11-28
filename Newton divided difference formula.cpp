@@ -24,7 +24,7 @@ int main(){
  for(i = 0; i < n; i++)
  {
   printf("%0.2f", x[i]);
-  for(j = 0; j < n-i ; j++)
+  for(j = 0; j < n-i; j++)
   {
    printf("\t%0.4f", y[i][j]);
   }
